@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Shanjida Islam</title>
+    <!-- Google Fonts & Canvas Confetti -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,400&family=Hind+Siliguri:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <!-- Linked External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <div class="bg-glow"></div>
+
+    <div class="container">
+        <!-- Photo Section with Date Badge Below -->
+        <div class="profile-card">
+            <div class="img-wrapper">
+                <img src="https://i.postimg.cc/HsxTbXw6/1785999326255.jpg" alt="Shanjida Islam" class="profile-img">
+            </div>
+            <br>
+            <div class="date-badge">🎉 8 August 🎉</div>
+        </div>
+
+        <!-- Rolled Open Letter Section with Dynamic Border -->
+        <div class="letter-wrapper">
+            <div class="letter-box-container">
+                <div class="letter-box">
+                    <div class="wax-seal">★</div>
+                    <div class="subtitle-tag"></div>
+                    <h1 class="letter-header">Happy Birthday!</h1>
+                    
+                    <div class="letter-body">
+                        <p>প্রিয় <strong>Shanjida Islam</strong>,</p>
+                        <p>আমার পক্ষ থেকে তোমাকে জন্মদিনের শুভেচ্ছা ও অনেক অনেক শুভকামনা ।</p>
+                        <p>আজকের এই বিশেষ দিনে তোমার দীর্ঘায়ু, সুস্বাস্থ্য, অফুরন্ত খুশি এবং উত্তরোত্তর সর্বাঙ্গীন সাফল্য কামনা করছি। সৃষ্টিকর্তা তোমার জীবনকে অনাবিল আনন্দে ভরিয়ে দিক।</p>
+                    </div>
+
+                    <div class="letter-footer">
+                        শুভকামনায়,<br>
+                        <span class="sender-name">Sojib Islam</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Celebrate Again Button -->
+        <div class="interactive-area">
+            <button class="celebrate-btn" onclick="fireConfetti()">✨ Celebrate Again</button>
+        </div>
+    </div>
+
+    <!-- Linked External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
